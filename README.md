@@ -15,6 +15,7 @@ You need to do the following:
 $ sudo add-apt-repository -y ppa:ubuntugis/ubuntugis-unstable
 $ sudo apt-get update
 $ sudo apt-get install -y libgdal-dev python-dev build-essential libyaml-dev libspatialindex-dev
+$ sudo apt-get install nodejs-legacy # needed on ubuntu 14.04
 ```
 
 ```sh
@@ -52,7 +53,7 @@ $ sudo apt-get install -y libgdal-dev python-dev build-essential libyaml-dev lib
 - To run, while in exporter directory
 
 ```sh
-    $ python exproter.py run_all
+    $ python exporter.py run_all
  ```
 
 ### OSM Data Sources:
